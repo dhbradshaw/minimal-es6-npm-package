@@ -19,19 +19,19 @@ This package has a few parts put in place to make that work.
 
 It's pretty easy.  Here are the steps.
 
-### Clone this repo
+### 1. Clone this repo
 ```
 $ git clone git@github.com:dhbradshaw/minimal-es6-npm-package.git
 ```
-### Customize package.json
+### 2. Customize package.json
 You'll have to update the package name.
 You may will want to update at least some of several other fields: author, license, etc.  
 And of course you'll probably want to configure your dependencies and dev dependencies.
 
-### Add your code to src
+### 3. Add your code to src
 Make sure that you export any part of your api that you want will available in the end product.
 
-### Add your tests to tests
+### 4. Add your tests to `tests` and run them
 Make sure to run your tests before deploying your package.
 
 ### Run babel to populate the build directory
@@ -42,7 +42,7 @@ or
 ```
 npm run babel
 ```
-### Register if necessary
+### Register with npm if necessary
 You can register with npm by using the add user command if you're not already there:
 ```
 $ npm adduser
