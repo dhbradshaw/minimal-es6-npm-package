@@ -19,3 +19,7 @@ This package has a few parts put in place to make that work.
 
 It's pretty easy.  Here are the steps.
 
+### Clone this repo
+```
+$ git clone git@github.com:dhbradshaw/minimal-es6-npm-package.git
+```
