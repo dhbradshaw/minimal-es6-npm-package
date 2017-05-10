@@ -1,9 +1,11 @@
-# minimum viable es6 npm package
-A minmimal npm package can be very small -- just create a package.json with a name and a version.
+# Minumum Viable ES6 NPM Package
 
-However, is you want to write in es6, then you probably want to still publish in es5.
+## Why create minimum viable es6 npm package repo?
+A minmimum viable npm package can be very small -- just create a package.json with a name and a version in a folder and upload.
 
-This package has a few parts to make that work.
+However, if you want to write in es6, then you probably want to still publish in es5.  This adds a little complexity.
+
+This package has a few parts put in place to make that work.
 
 1. The source files are placed in a source folder.
 2. .babelrc and package.json are set up so that a build command will populate the build folder.
@@ -13,3 +15,6 @@ This package has a few parts to make that work.
 6. .gitignore avoids committing the generated es5.
 7. .npmignore avoids adding the source code.
 
+## Cool.  So what do I do to use it?
+
+It's pretty easy.  Here are the steps.
