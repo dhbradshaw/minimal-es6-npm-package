@@ -1,7 +1,7 @@
 # Minumum Viable ES6 NPM Package
 
 ## Why create minimum viable es6 npm package repo?
-A minmimum viable npm package can be very small -- just create a package.json with a name and a version in a folder and upload.
+A minimum viable npm package is very simple -- just create a package.json with a name and a version in a folder and upload.
 
 However, if you want to write in es6, then you probably want to still publish in es5.  This adds a little complexity.
 
@@ -18,3 +18,4 @@ This package has a few parts put in place to make that work.
 ## Cool.  So what do I do to use it?
 
 It's pretty easy.  Here are the steps.
+
