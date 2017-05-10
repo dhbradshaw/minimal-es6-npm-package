@@ -23,3 +23,39 @@ It's pretty easy.  Here are the steps.
 ```
 $ git clone git@github.com:dhbradshaw/minimal-es6-npm-package.git
 ```
+### Customize package.json
+You'll have to update the package name.
+You may will want to update at least some of several other fields: author, license, etc.  
+And of course you'll probably want to configure your dependencies and dev dependencies.
+
+### Add your code to src
+Make sure that you export any part of your api that you want will available in the end product.
+
+### Add your tests to tests
+Make sure to run your tests before deploying your package.
+
+### Run babel to populate the build directory
+```
+yarn babel
+```
+or 
+```
+npm run babel
+```
+### Register if necessary
+You can register with npm by using the add user command if you're not already there:
+```
+$ npm adduser
+```
+
+### Publish!
+From the same directly as your package.json, run
+```
+npm publish
+```
+
+## Resources:
+
+https://docs.npmjs.com/getting-started/publishing-npm-packages
+
+http://stackoverflow.com/questions/29738381/how-to-publish-a-module-written-in-es6-to-npm
