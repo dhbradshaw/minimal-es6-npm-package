@@ -53,6 +53,10 @@ From the same directly as your package.json, run
 ```
 npm publish
 ```
+Or, if it's a scoped package that you want to ensure is public,
+```
+npm publish --access=public
+```
 
 ## Resources:
 
