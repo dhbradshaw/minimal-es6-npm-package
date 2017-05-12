@@ -62,4 +62,6 @@ npm publish --access=public
 
 https://docs.npmjs.com/getting-started/publishing-npm-packages
 
+https://docs.npmjs.com/getting-started/scoped-packages
+
 http://stackoverflow.com/questions/29738381/how-to-publish-a-module-written-in-es6-to-npm
